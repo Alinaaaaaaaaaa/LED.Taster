@@ -71,3 +71,4 @@ except KeyboardInterrupt:
     GPIO.cleanup()
     cur.execute("SELECT * FROM LED;")
     print(cur.fetchall())
+    
